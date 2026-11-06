@@ -1,0 +1,11 @@
+duong_dan,nhan,nguon_anh,chat_luong,muc_do_kho,ghi_chu
+data/normal/1.png,normal,Anh tong hop,Tot (695x695),Trung binh,Nen cay xanh phuc tap gay nham lan voi vien la
+data/normal/2.png,normal,Anh tong hop,Trung binh (400x600),Thap,La don le nam giua khung hinh hoi mo vien
+data/normal/3.png,normal,Anh tong hop,Tot (1254x1254),Cao,Mat duoi vang dong de bi spot_detection nhan nham thanh dom
+data/normal/4.png,normal,Anh tong hop,Tot (1254x1254),Trung binh,Nen co canh va phan la phu xung quanh
+data/normal/5.png,normal,Anh tong hop,Tot (1254x1254),Trung binh,La co vung phan quang sang o giua song la
+data/spotted/hu1.png,spotted,Anh tong hop,Tot (1254x1254),Rat cao,Vung chay la nau o trung tam va nen xanh toi vien quanh (loi cu chon nen)
+data/spotted/hu2.png,spotted,Anh tong hop,Tot (1254x1254),Thap,Nen sang ro rang tuong phan cao voi la dom
+data/spotted/hu3.png,spotted,Anh tong hop,Tot (1254x1254),Cao,Anh toi dom nau sam nam tren nen la xanh dam
+data/spotted/hu4.png,spotted,Anh tong hop,Tot (1254x1254),Trung binh,Dom nho rai rac can bao toan khong bi xoa boi bo loc
+data/spotted/hu5.png,spotted,Anh tong hop,Tot (1254x1254),Trung binh,La uon cong co ria hoi vang va bong do nhe

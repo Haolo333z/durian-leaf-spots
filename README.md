@@ -17,8 +17,8 @@ Hệ thống thị giác máy tính phát hiện đốm bất thường trên l�
 ```text
 durian-leaf-spots/
 ├── data/
-│   ├── normal/               # Ảnh lá sầu riêng bình thường (1.png - 5.png, ảnh tổng hợp thử nghiệm)
-│   └── spotted/              # Ảnh lá sầu riêng có đốm bệnh (hu1.png - hu5.png, ảnh tổng hợp thử nghiệm)
+│   ├── normal/               # 5 ảnh thật lá sầu riêng bình thường do Hào cung cấp
+│   └── spotted/              # 5 ảnh thật lá sầu riêng có đốm do Hào cung cấp
 ├── docs/
 │   ├── BAN_GIAO_HAO.md       # Biên bản bàn giao kỹ thuật của Hào cho Nhựt và Phúc
 │   ├── CHUONG_1_2_HAO.md     # Nội dung báo cáo lý thuyết & phương pháp Chương 1 và 2
@@ -113,4 +113,4 @@ Bảng kết quả in ra terminal bao gồm:
 
 ### 3. Giới hạn hệ thống:
 - Hệ thống hiện tại **chưa hỗ trợ tự động tách rời từng lá trong chùm nhiều lá đan xen chồng lấn**.
-- Bộ dữ liệu mẫu hiện tại gồm 10 ảnh là **ảnh tổng hợp (AI/Synthetic)** dùng để phát triển và kiểm thử thuật toán; nhóm cần bổ sung tối thiểu 10 ảnh chụp thật tế ngoài vườn để hoàn tất nghiệm thu thực tế.
+- Bộ dữ liệu hiện tại gồm **10 ảnh thật do Hào cung cấp**: 5 ảnh bình thường và 5 ảnh có đốm. Cả 10 ảnh đã chạy qua CLI. Hai ảnh `normal/1.png` và `normal/2.png` vừa được thay bằng ảnh một lá riêng; cả hai đã chạy lại và mask nhìn chung theo được viền lá. Chưa có mask chuẩn để tính độ chính xác định lượng.

@@ -15,7 +15,7 @@
 | `src/leaf_segmentation.py` | Tách phiến lá GrabCut + Otsu, lấp đầy lỗ đốm bệnh, kiểm tra hợp lý (Sanity Checks) | Lê Hữu Hào | **ĐÃ HOÀN THÀNH** |
 | `main.py` | Script tích hợp dòng lệnh CLI 4 bước, chuẩn hóa lưu trữ và bắt lỗi | Lê Hữu Hào | **ĐÃ HOÀN THÀNH** |
 | `app.py` | Giao diện Streamlit đã tích hợp đồng bộ với module tiền xử lý và tách lá | Phúc (Hào hỗ trợ tích hợp) | **ĐÃ ĐỒNG BỘ** |
-| `docs/danh_sach_du_lieu.csv` | Bảng kê 10 ảnh tổng hợp hiện có, chất lượng, mức độ khó | Lê Hữu Hào | **ĐÃ HOÀN THÀNH** |
+| `docs/danh_sach_du_lieu.csv` | Bảng kê 10 ảnh thật hiện có (5 bình thường, 5 có đốm), chất lượng, mức độ khó | Lê Hữu Hào | **ĐÃ HOÀN THÀNH** |
 | `docs/kiem_thu_hao.csv` | Kết quả kiểm thử thực nghiệm trên 10 ảnh mẫu | Lê Hữu Hào | **ĐÃ HOÀN THÀNH** |
 | `docs/CHUONG_1_2_HAO.md` | Báo cáo chi tiết lý thuyết, phương pháp và tham số Chương 1 & 2 | Lê Hữu Hào | **ĐÃ HOÀN THÀNH** |
 | `README.md` | Tài liệu hướng dẫn cài đặt, cấu trúc và cách chạy | Lê Hữu Hào | **ĐÃ CẬP NHẬT** |
@@ -97,5 +97,6 @@ results = calculate_severity(leaf_mask: np.ndarray, spot_mask: np.ndarray) -> di
    - Hào đã kết nối sẵn pipeline, bổ sung hiển thị 4 bước ảnh và cơ chế bắt lỗi `LeafSegmentationError`. Phúc tiếp tục hoàn thiện bố cục trang trí và các tính năng bổ trợ.
 
 ### 5.3. Trách nhiệm chung của nhóm về dữ liệu:
-- **Tình trạng:** Bộ 10 ảnh hiện có đều là **ảnh tổng hợp (AI/Synthetic)**.
-- **Tồn đọng:** Nhóm cần bổ sung tối thiểu **10 ảnh chụp thật từ vườn sầu riêng** để nghiệm thu độ chính xác thực tế trước khi báo cáo hội đồng.
+- **Tình trạng:** Hào xác nhận cả 10 ảnh trong `data/normal/` và `data/spotted/` là ảnh chụp thật (5 bình thường, 5 có đốm). Cả 10 ảnh chạy qua CLI thành công.
+- **Tình trạng kiểm tra mask:** Sau khi thay ảnh `normal/1.png` và `normal/2.png` bằng ảnh một lá riêng, Hào đã chạy lại CLI; mask của hai ảnh nhìn chung theo được viền lá.
+- **Tồn đọng:** Chưa có mask chuẩn để tính độ chính xác định lượng (IoU/Dice). `normal/1.png` còn một ít viền lá bị tính nhầm thành đốm, thuộc phần phát hiện đốm của Nhựt.

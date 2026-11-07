@@ -1,11 +1,11 @@
 ten_anh,nguon_anh,nhan,chay_thanh_cong,mask_la_dung,loi_nen_bong,loi_dom_nhin_thay,ket_luan,duong_dan_ket_qua
-1.png,Anh tong hop (Thu nghiem thuat toan),normal,Co,Dung (36.6% dien tich),Khong (loai bo sach nen xanh toi),Khong (0 dom - 0.00%),Dat (tach la),results/1_analyzed.png
-2.png,Anh tong hop (Thu nghiem thuat toan),normal,Co,Dung (41.0% dien tich),Khong bi lay nen,Co (nham cuong/gan vang 33.87% - loi Nhut),Dat (tach la),results/2_analyzed.png
-3.png,Anh tong hop (Thu nghiem thuat toan),normal,Co,Dung (24.3% dien tich),Khong bi dinh canh nen,Co (nham mat duoi vang dong 79.94% - loi Nhut),Dat (tach la),results/3_analyzed.png
-4.png,Anh tong hop (Thu nghiem thuat toan),normal,Co,Dung (32.5% dien tich),Khong bi dinh canh ngoai,Khong (0 dom - 0.00%),Dat (tach la),results/4_analyzed.png
-5.png,Anh tong hop (Thu nghiem thuat toan),normal,Co,Dung (21.1% dien tich),Khong bi lay nen vuon,Khong (dom 0.03% coi nhu bang 0),Dat (tach la),results/5_analyzed.png
-hu1.png,Anh tong hop (Thu nghiem thuat toan),spotted,Co,Dung (26.2% dien tich),Khong (khac phuc loi cu chon nen),Khong (lay dung vung chay la 76.84%),Dat (tach la),results/hu1_analyzed.png
-hu2.png,Anh tong hop (Thu nghiem thuat toan),spotted,Co,Dung (38.8% dien tich),Khong bi lay nen sang,Khong (phat hien dung dom 26.62%),Dat (tach la),results/hu2_analyzed.png
-hu3.png,Anh tong hop (Thu nghiem thuat toan),spotted,Co,Dung (28.5% dien tich),Khong bi loi thieu sang,Khong (phat hien dung dom 3.96%),Dat (tach la),results/hu3_analyzed.png
-hu4.png,Anh tong hop (Thu nghiem thuat toan),spotted,Co,Dung (23.4% dien tich),Khong bi dinh canh vuon,Khong (bao toan dom nho 5.72%),Dat (tach la),results/hu4_analyzed.png
-hu5.png,Anh tong hop (Thu nghiem thuat toan),spotted,Co,Dung (44.2% dien tich),Khong bi bong mep la,Khong (phat hien dung dom 1.27%),Dat (tach la),results/hu5_analyzed.png
+1.png,Anh that do Hao cung cap,normal,Co,Dung (mask theo tron la don),Da tach nen dat,Co (vien la bi tinh dom 0.86% - loi Nhut),Dat (tach la),results/1_analyzed.png
+2.png,Anh that do Hao cung cap,normal,Co,Dung (mask theo tron la don),Da tach nen vuon,Khong (0 dom - 0.00%),Dat (tach la),results/2_analyzed.png
+3.png,Anh that do Hao cung cap,normal,Co,Dung (24.3% dien tich),Khong bi dinh canh nen,Co (nham mat duoi vang dong 79.95% - loi Nhut),Dat (tach la),results/3_analyzed.png
+4.png,Anh that do Hao cung cap,normal,Co,Dung (32.5% dien tich),Khong bi dinh canh ngoai,Khong (0 dom - 0.00%),Dat (tach la),results/4_analyzed.png
+5.png,Anh that do Hao cung cap,normal,Co,Dung (21.1% dien tich),Khong bi lay nen vuon,Khong (dom 0.03% coi nhu bang 0),Dat (tach la),results/5_analyzed.png
+hu1.png,Anh that do Hao cung cap,spotted,Co,Dung (26.2% dien tich),Khong (khac phuc loi cu chon nen),Khong (lay dung vung chay la 76.84%),Dat (tach la),results/hu1_analyzed.png
+hu2.png,Anh that do Hao cung cap,spotted,Co,Dung (38.8% dien tich),Khong bi lay nen sang,Khong (phat hien dung dom 26.62%),Dat (tach la),results/hu2_analyzed.png
+hu3.png,Anh that do Hao cung cap,spotted,Co,Dung (28.5% dien tich),Khong bi loi thieu sang,Khong (phat hien dung dom 3.96%),Dat (tach la),results/hu3_analyzed.png
+hu4.png,Anh that do Hao cung cap,spotted,Co,Dung (23.4% dien tich),Khong bi dinh canh vuon,Khong (bao toan dom nho 5.73%),Dat (tach la),results/hu4_analyzed.png
+hu5.png,Anh that do Hao cung cap,spotted,Co,Dung (44.2% dien tich),Khong bi bong mep la,Khong (phat hien dung dom 1.27%),Dat (tach la),results/hu5_analyzed.png

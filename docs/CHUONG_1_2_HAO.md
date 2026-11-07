@@ -31,12 +31,13 @@ Việc quan sát và phân loại thủ công bằng mắt thường của nhà 
   - Chưa hỗ trợ ảnh bị mất nét quá nghiêm trọng (out-of-focus blur) làm biến dạng toàn bộ đường biên phiến lá.
 
 ## 1.4. Hiện trạng dữ liệu đầu vào và Tuyên bố tính trung thực
-- **Hiện trạng dữ liệu:** Thư mục `data/` hiện chứa 10 ảnh mẫu (5 ảnh `normal/1.png - 5.png` và 5 ảnh `spotted/hu1.png - hu5.png`).
-- **Nguồn gốc dữ liệu:** Toàn bộ 10 ảnh này là **ẢNH TỔNG HỢP (AI / Synthetic Data)**, được khởi tạo ban đầu để kiểm nghiệm mã nguồn và logic thuật toán xử lý ảnh.
+- **Hiện trạng dữ liệu:** Thư mục `data/` hiện chứa 10 ảnh thật do Hào cung cấp: 5 ảnh `normal/1.png - 5.png` và 5 ảnh `spotted/hu1.png - hu5.png`.
+- **Nguồn gốc dữ liệu:** Hào xác nhận ảnh trong cả hai thư mục là ảnh chụp thật. Bảng kê ghi Hào là người cung cấp; địa điểm và ngày chụp chưa được ghi lại.
 - **Tuyên bố trung thực theo yêu cầu học thuật:**
-  - Các ảnh này **không được gọi là ảnh lá chụp thật từ thực tế**.
-  - Không sử dụng 10 ảnh tổng hợp này để công bố độ chính xác thực tế (real-world accuracy).
-  - Trách nhiệm kiểm thử thực tế đòi hỏi tối thiểu **10 ảnh chụp thật khác nhau**. Hiện tại số ảnh thật đã xác minh trong thư mục dữ liệu là **0/10 ảnh**. Do đó, tiêu chí kiểm thử trên tập ảnh thật được ghi nhận là **CHƯA ĐẠT** (đang chờ thu thập bổ sung mẫu chụp thực địa).
+  - Hào xác nhận đây là ảnh chụp thật do mình cung cấp; thông tin địa điểm và ngày chụp chưa được ghi lại.
+  - Cả 10 ảnh thật đã chạy qua CLI thành công và có kết quả lưu trong `results/`. Đây xác nhận chương trình chạy được trên bộ ảnh, nhưng chưa phải phép đo định lượng độ chính xác.
+  - Sau khi thay ảnh, `normal/1.png` và `normal/2.png` đã được chạy lại. Kiểm tra trực quan cho thấy mask theo được một lá riêng trên mỗi ảnh.
+  - Bộ ảnh thật hiện đạt **10/10 ảnh** theo số lượng kiểm thử. Để báo cáo độ chính xác bằng số, cần tạo mask chuẩn cho các ảnh và tính chỉ số như IoU hoặc Dice; hiện chưa có nhãn mask chuẩn.
 
 ---
 
